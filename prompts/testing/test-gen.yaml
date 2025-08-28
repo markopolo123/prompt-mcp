@@ -1,0 +1,35 @@
+metadata:
+  id: "test-gen"
+  name: "Test Generator"
+  description: "Generates comprehensive unit tests for code"
+  author: "team"
+  created: "2025-08-27T10:00:00Z"
+  modified: "2025-08-27T10:00:00Z"
+  version: "1.0.0"
+  tags:
+    - "testing"
+    - "unit-tests"
+    - "quality"
+
+prompt: |
+  Generate comprehensive unit tests for the provided code.
+
+  Please provide:
+  1. Test suite setup and teardown if needed
+  2. Tests for normal/happy path scenarios
+  3. Tests for edge cases and boundary conditions
+  4. Tests for error conditions and exception handling
+  5. Mock/stub setup for dependencies if applicable
+  6. Assertions that validate both behavior and state
+  7. Clear, descriptive test names and comments
+
+  Ensure tests follow best practices:
+  - Follow AAA pattern (Arrange, Act, Assert)
+  - Test one thing at a time
+  - Use descriptive test names
+  - Include both positive and negative test cases
+  - Consider performance implications for large datasets
+
+usage_stats:
+  usage_count: 0
+  last_used: "2025-08-27T10:00:00Z"

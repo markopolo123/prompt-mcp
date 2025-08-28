@@ -1,0 +1,28 @@
+metadata:
+  id: "bug-analysis"
+  name: "Bug Analysis Assistant"
+  description: "Helps analyze and debug code issues systematically"
+  author: "team"
+  created: "2025-08-27T10:00:00Z"
+  modified: "2025-08-27T10:00:00Z"
+  version: "1.0.0"
+  tags:
+    - "development"
+    - "debugging"
+    - "troubleshooting"
+
+prompt: |
+  I need help analyzing a bug or code issue.
+
+  Please help me:
+  1. Identify the most likely root cause of this issue
+  2. Provide step-by-step debugging approach
+  3. Suggest potential fixes or workarounds
+  4. Recommend preventive measures to avoid similar issues
+  5. Identify any related code areas that might be affected
+
+  Focus on systematic analysis and actionable solutions.
+
+usage_stats:
+  usage_count: 0
+  last_used: "2025-08-27T10:00:00Z"

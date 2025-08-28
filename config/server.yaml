@@ -1,0 +1,13 @@
+server:
+  name: "team-prompt-server"
+  version: "1.0.0"
+  
+storage:
+  prompts_dir: "./prompts"
+  watch_changes: false  # future feature
+  
+mcp:
+  capabilities:
+    prompts: true
+    resources: false
+    tools: false

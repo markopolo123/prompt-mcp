@@ -1,0 +1,30 @@
+metadata:
+  id: "api-docs"
+  name: "API Documentation Generator"
+  description: "Generates comprehensive API documentation from code"
+  author: "team"
+  created: "2025-08-27T10:00:00Z"
+  modified: "2025-08-27T10:00:00Z"
+  version: "1.0.0"
+  tags:
+    - "documentation"
+    - "api"
+    - "openapi"
+
+prompt: |
+  Please generate comprehensive API documentation for the provided code.
+
+  Include the following sections:
+  1. API Overview and purpose
+  2. Endpoints with HTTP methods and paths
+  3. Request/Response parameters and types
+  4. Status codes and error responses
+  5. Authentication requirements (if applicable)
+  6. Usage examples with sample requests/responses
+  7. Rate limiting information (if applicable)
+
+  Ensure the documentation is clear, complete, and follows best practices for API documentation. Use markdown format.
+
+usage_stats:
+  usage_count: 0
+  last_used: "2025-08-27T10:00:00Z"

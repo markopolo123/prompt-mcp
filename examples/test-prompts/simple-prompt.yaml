@@ -1,0 +1,29 @@
+metadata:
+  id: "simple-example"
+  name: "Simple Example Prompt"
+  description: "A basic example prompt to test the system"
+  author: "system"
+  created: "2025-08-27T10:00:00Z"
+  modified: "2025-08-27T10:00:00Z"
+  version: "1.0.0"
+  tags:
+    - "example"
+    - "test"
+
+arguments:
+  - name: "name"
+    description: "Your name"
+    type: "string"
+    required: true
+  - name: "greeting"
+    description: "Type of greeting"
+    type: "string"
+    required: false
+    default: "Hello"
+
+prompt: |
+  {{greeting}}, {{name}}! This is a simple test prompt to verify that the MCP server is working correctly.
+
+usage_stats:
+  usage_count: 0
+  last_used: "2025-08-27T10:00:00Z"

@@ -1,0 +1,30 @@
+metadata:
+  id: "test-review"
+  name: "Test Review Assistant"
+  description: "Reviews existing tests for quality and coverage"
+  author: "team"
+  created: "2025-08-27T10:00:00Z"
+  modified: "2025-08-27T10:00:00Z"
+  version: "1.0.0"
+  tags:
+    - "testing"
+    - "review"
+    - "quality"
+
+prompt: |
+  Please review the provided test code for quality and coverage.
+
+  Please evaluate:
+  1. **Test Coverage**: Are all important scenarios covered?
+  2. **Test Quality**: Do tests follow best practices?
+  3. **Readability**: Are tests clear and well-documented?
+  4. **Maintainability**: Will these tests be easy to update?
+  5. **Performance**: Are there any performance issues with the tests?
+  6. **Missing Tests**: What test cases are missing?
+  7. **Improvements**: Specific suggestions for enhancement
+
+  Provide actionable feedback with examples where possible.
+
+usage_stats:
+  usage_count: 0
+  last_used: "2025-08-27T10:00:00Z"

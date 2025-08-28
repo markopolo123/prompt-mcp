@@ -1,0 +1,29 @@
+metadata:
+  id: "code-review"
+  name: "Code Review Assistant"
+  description: "Helps conduct thorough code reviews with focus on specific aspects"
+  author: "team"
+  created: "2025-08-27T10:00:00Z"
+  modified: "2025-08-27T10:00:00Z"
+  version: "1.0.0"
+  tags:
+    - "development"
+    - "code-review"
+    - "quality"
+
+prompt: |
+  Please conduct a thorough code review of the provided code.
+
+  Please provide:
+  1. Overall code quality assessment
+  2. Specific issues or improvements needed
+  3. Security considerations (if applicable)
+  4. Performance implications
+  5. Maintainability and readability suggestions
+  6. Best practices recommendations
+
+  Format your response with clear sections and actionable feedback.
+
+usage_stats:
+  usage_count: 0
+  last_used: "2025-08-27T10:00:00Z"

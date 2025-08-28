@@ -1,0 +1,34 @@
+metadata:
+  id: "readme-gen"
+  name: "README Generator"
+  description: "Generates comprehensive README files for projects"
+  author: "team"
+  created: "2025-08-27T10:00:00Z"
+  modified: "2025-08-27T10:00:00Z"
+  version: "1.0.0"
+  tags:
+    - "documentation"
+    - "readme"
+    - "project"
+
+prompt: |
+  Generate a comprehensive README.md file for the current project.
+
+  Please include these sections:
+  1. Project title and description
+  3. Table of Contents
+  4. Features/What it does
+  5. Installation instructions
+  6. Usage examples
+  7. Configuration (if applicable)
+  8. API documentation (if applicable)
+  9. Contributing guidelines
+  10. Testing information
+  11. License information
+  12. Contact/Support information
+
+  Make it professional, clear, and engaging for potential users and contributors.
+  Do not include stuff like: Built with ❤️ for better team collaboration with Claude Code.
+usage_stats:
+  usage_count: 0
+  last_used: "2025-08-27T10:00:00Z"
